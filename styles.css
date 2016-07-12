@@ -28,3 +28,84 @@ table {
 	border-spacing: 0;
 }
 /* end reset browser styles */
+
+.header {
+	background-color: #009688;
+  margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.header h1 strong {
+	font-size:150px;
+	color:white;
+	line-height:1em;
+	margin-right:-1.25em;
+	margin-left: 100px;
+}
+
+.header h1 {
+color: rgb(252,102,0);
+text-align: center;
+font-size:4em;
+text-shadow: 4px 3px 6px rgba(0,0,0,0.5);
+}
+
+.mainNav li {
+	list-style: none;
+	float: left;
+	margin: 1px;
+}
+
+.mainNav {
+	list-style: none;
+	width: 100%;
+	background-color: #009688;
+}
+
+.mainNav a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	display: block;
+	background: #80cbc4;
+	width: 6em;
+	padding: 7px 0 5px 0;
+	text-align: center;
+	border: 1px solid white;
+}
+
+#first {
+	margin-left: 100px;
+}
+
+.mainNav:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+
+.sidebar {
+	float: right;
+	width: 20%;
+	margin: 10px;
+	background-color: #7986cb;
+}
+
+.sidebar h2 {
+	margin: 5px;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	border: 2px dashed black;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding: 15px;
+}
+
+.sidebar li {
+	
+}
